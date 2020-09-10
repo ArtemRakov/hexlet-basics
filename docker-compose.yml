@@ -14,7 +14,7 @@ services:
     volumes:
       - .:/app:cached
       - '/tmp:/tmp'
-      - '/var/tmp/hexletbasics:/var/tmp/hexletbasics'
+      - '/var/tmp:/var/tmp'
       - '/var/run/docker.sock:/var/run/docker.sock'
     env_file: '.env'
     depends_on:
@@ -29,7 +29,7 @@ services:
     volumes:
       - .:/app:cached
       - '/tmp:/tmp'
-      - '/var/tmp/hexletbasics:/var/tmp/hexletbasics'
+      - '/var/tmp:/var/tmp'
       - '/var/run/docker.sock:/var/run/docker.sock'
     env_file: '.env'
     depends_on:
