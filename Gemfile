@@ -58,5 +58,3 @@ gem 'sidekiq'
 gem 'simple_form'
 gem 'slim-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'concurrent-ruby', git: 'git@github.com:ruby-concurrency/concurrent-ruby.git', branch: 'segfault'
-
