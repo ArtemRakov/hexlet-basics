@@ -332,6 +332,7 @@ GEM
       sorbet-runtime (>= 0.5)
     sorbet-runtime (0.5.6189)
     sorbet-static (0.5.6189-universal-darwin-14)
+    sorbet-static (0.5.6189-universal-darwin-20)
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -433,4 +434,4 @@ DEPENDENCIES
   webpacker (~> 5.2)
 
 BUNDLED WITH
-   2.1.4
+   2.2.4
